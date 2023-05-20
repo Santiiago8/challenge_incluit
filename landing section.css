@@ -3,6 +3,9 @@ html{
     font-style: normal;
     justify-content: center;
 }
+main{
+    margin-bottom: 10px;
+}
 .landing_section{
     display: flex;
     justify-content: center;
