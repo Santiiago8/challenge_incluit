@@ -1,33 +1,30 @@
 html{
     font-family: 'Montserrat';
     font-style: normal;
+    justify-content: center;
 }
 .landing_section{
     display: flex;
+    justify-content: center;
     background: url(assets/illustrations/single-wave-pattern.svg);
-    width: 100%;
-    height: 100%;
+    
+    height: 850px;
+    
 }
 .illustration_container{
-    
+    display:inline-block ;
+    margin: 0;
     width: 40%;
     height: 40%;
-    float: left;
 }
 .illustration{
-    display:flex ;
-    width: 700px;
-    height: 700px;
-    left: 0px;
-    top: 0px;
+    
+    margin: 0;
 }
 .illustration_BG{
-    float: left;
-    width: 622px;
-    height: 500px;
-    left: 88px;
-    top: 195px;
-
+    width: 100%;
+    height: 100%;
+    margin: 0;
     background: linear-gradient(102.47deg, rgba(23, 111, 235, 0.5) -5.34%, rgba(255, 128, 255, 0.5) 106.58%);
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 104px;
@@ -37,14 +34,12 @@ html{
     height: 100%;  
 }
 .Copy_CTA{
-    margin-left: 50px;
+    margin-left: 0px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 10px;
     gap: 24px;
-    width: 602px;
-    height: 433px;
+    width: 45%;
+    height: 45%;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -52,13 +47,11 @@ html{
 }
 .landing_copy{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
     gap: 24px;
 
-    width: 602px;
-    height: 433px;
+    width: 100%;
+    height: 100%;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -70,15 +63,15 @@ html{
     padding: 0px;
     gap: 8px;
 
-    width: 202px;
-    height: 155px;
+    width: 100%;
+    height: 100%;
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 .explore{
-    width: 174px;
-    height: 40px;
+    width: 200px;
+    height: 10px;
     margin-bottom: 15px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -93,9 +86,8 @@ html{
     flex-grow: 0;
 }
 .tech_zone{
-    margin-bottom: 50px;
-    width: 602px;
-    height: 250px;
+    margin-bottom: 10px;
+    width: 100%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -113,7 +105,7 @@ html{
 }
 .p2{
     margin-bottom: 50px;
-    width: 523px;
+    width: 500px;
     height: 54px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -156,23 +148,8 @@ html{
     order: 0;
     flex-grow: 0;
 }
-.walkthrough_section{
-    padding-bottom: 10px;
-    
-}
-.walkthrough_cards{
-    position: relative;
-    z-index: 2;
-    display: flex;
-    align-items: center;
-}
-.walkthrough_section_BG{
-    position: relative;
-    z-index: 1;
-    transform: translateY(-500px);
-    height: 400px;
-    background: linear-gradient(102.47deg, rgba(23, 111, 235, 0.5) -5.34%, rgba(255, 128, 255, 0.5) 106.58%);
-}
+
+
 
 
 

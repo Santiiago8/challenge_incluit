@@ -3,6 +3,7 @@ button{
 }
 .products_section{
     transform: translateY(-300px);
+    margin-left: 100px;
 }
 .tech_prod_title{
     width: 1464px;
@@ -29,6 +30,9 @@ button{
     
     margin-left: 50px;
 }
+.controls{
+    justify-content: center;
+}
 .filter_by{
     display: inline-flex;
     flex-direction: row;
@@ -39,7 +43,7 @@ button{
     margin-left: 55px;
     margin-right: 25px;
     margin-top: 20px;
-    width: 353px;
+    width: px;
     height: 59px;
     flex: none;
     order: 0;
